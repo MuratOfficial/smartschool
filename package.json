@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@fontsource-variable/montserrat": "^5.0.16",
+    "@types/react-scroll": "^1.8.10",
     "next": "14.0.2",
     "react": "^18",
     "react-dom": "^18",

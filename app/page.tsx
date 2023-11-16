@@ -14,13 +14,20 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen  flex-col items-center justify-between px-24 py-8">
+    <main className="flex min-h-screen relative lg:max-w-[1920px] lg:max-h-[7070px] flex-col items-center justify-between px-24 py-8">
+      <Image
+        width={1920}
+        height={1530}
+        alt="rect2"
+        src="/rect2.png"
+        className="absolute top-0"
+      />
       <Navbar />
-      <div className="flex flex-row">
+      <div className="flex flex-row gap-x-12 px-24 lg:w-[1200px] items-center ">
         <HeroText />
         <HeroImage />
       </div>
-      <div className="flex flex-col">
+      <div className="flex flex-col w-full">
         <HeroSecondaryText />
         <HeroSecondaryImage />
       </div>
