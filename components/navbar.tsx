@@ -46,7 +46,7 @@ function Navbar() {
   return (
     <div className="flex flex-row gap-x-20 px-48 py-4 lg:w-[1200px] items-center justify-start z-50">
       <Image
-        width={120}
+        width={150}
         height={50}
         src="/1/logo-smart-school-03.png"
         alt="logo"
@@ -67,7 +67,7 @@ function Navbar() {
               onSetActive={handleSetActive}
               className="flex flex-col cursor-pointer border-2 rounded-md py-1 px-2 border-transparent hover:border-violet-700 hover:text-violet-700 transition delay-150 items-center duration-400"
             >
-              <p className="text-sm font-semibold text-center leading-5">
+              <p className="text-[16px] font-semibold text-center leading-5">
                 {el.name}
               </p>
             </ScrollLink>
