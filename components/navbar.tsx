@@ -44,16 +44,16 @@ function Navbar() {
     },
   ];
   return (
-    <div className="flex flex-row gap-x-20 px-24 lg:w-[1200px] items-center justify-start">
+    <div className="flex flex-row gap-x-20 px-48 py-4 lg:w-[1200px] items-center justify-start z-50">
       <Image
-        width={200}
-        height={100}
-        src="/logo-smart-school-03.png"
+        width={120}
+        height={50}
+        src="/1/logo-smart-school-03.png"
         alt="logo"
         className=""
       />
       <nav>
-        <ul className="flex flex-row gap-x-10 text-[#4e6f89] font-['Roboto'] text-[24px]">
+        <ul className="flex flex-row gap-x-10 text-[#4e6f89] font-['Roboto'] text-[16px]">
           {routes.map((el, index) => (
             <ScrollLink
               key={index}
@@ -67,7 +67,7 @@ function Navbar() {
               onSetActive={handleSetActive}
               className="flex flex-col cursor-pointer border-2 rounded-md py-1 px-2 border-transparent hover:border-violet-700 hover:text-violet-700 transition delay-150 items-center duration-400"
             >
-              <p className="text-md font-semibold text-center leading-5">
+              <p className="text-sm font-semibold text-center leading-5">
                 {el.name}
               </p>
             </ScrollLink>

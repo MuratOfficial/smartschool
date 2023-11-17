@@ -3,7 +3,7 @@ import React from "react";
 
 function HeroText() {
   return (
-    <div className="h-screen flex flex-col justify-center px-0 text-left max-w-[480px] z-10">
+    <div className="h-full flex flex-col justify-center px-0 text-left lg:max-w-[480px] z-10 relative">
       <h1 className="font-bold text-[46px] break-all leading-tight text-[#2b3860]">
         Набери желаемый балл на <span className=" font-black">IELTS</span>
       </h1>
@@ -25,7 +25,7 @@ function HeroText() {
       <Image
         width={185}
         height={64}
-        src="/Frame5kaspi.png"
+        src="/1/Frame5kaspi.png"
         alt="kaspi"
         className="ml-8 mt-8"
       />
