@@ -13,6 +13,20 @@ function HeroSecondaryText() {
           className="absolute z-20 inset-x-60 inset-y-24"
         />
         <Image
+          src="/clouds/clouds2.png"
+          width={160}
+          height={160}
+          alt="plane"
+          className="absolute z-20 inset-x-64 inset-y-60"
+        />
+        <Image
+          src="/clouds/clouds4.png"
+          width={170}
+          height={170}
+          alt="plane"
+          className="absolute z-20 right-0 inset-y-56"
+        />
+        <Image
           src="/2/statueoflibmin.svg"
           width={450}
           height={450}

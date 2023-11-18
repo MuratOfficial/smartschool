@@ -15,7 +15,7 @@ function AboutCourses() {
             className=""
           />
         </div>
-        <div className="w-full leading-7 h-fit text-xl">
+        <div className="w-full leading-7 h-fit text-xl ">
           <p className="text-[#4e6f89] pb-4">
             <strong>Smart School</strong> является Авторизованным{" "}
             <strong>British Council</strong> Регистрационным Центром для
@@ -29,7 +29,14 @@ function AboutCourses() {
           </Link>
         </div>
       </div>
-      <div className="h-full w-full mb-12">
+      <div className="h-full w-full mb-12 relative">
+        <Image
+          width={200}
+          height={200}
+          src="/clouds/clouds2.png"
+          alt="clouds1"
+          className="absolute right-0 top-8"
+        />
         <p className="text-center font-bold text-[40px] text-neutral-100 leading-tight pt-3 pb-5">
           Почему выбирают <strong>Smart School?</strong>
         </p>

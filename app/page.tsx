@@ -84,6 +84,34 @@ export default function Home() {
         alt="lastrect"
         className="absolute top-[4900px]"
       />
+      <Image
+        src="/clouds/clouds1.png"
+        width={1000}
+        height={720}
+        alt="clouds1"
+        className="absolute top-[400px] left-0"
+      />
+      <Image
+        src="/clouds/clouds2.png"
+        width={1000}
+        height={720}
+        alt="clouds1"
+        className="absolute top-[400px] "
+      />
+      <Image
+        src="/clouds/clouds3.png"
+        width={500}
+        height={720}
+        alt="clouds1"
+        className="absolute top-[500px] left-0"
+      />
+      <Image
+        src="/clouds/clouds4.png"
+        width={500}
+        height={720}
+        alt="clouds1"
+        className="absolute top-[500px] right-0"
+      />
       <Navbar />
       <div className="flex flex-row px-48 lg:w-[1200px] lg:max-w-[1200px] items-center h-full py-8">
         <HeroText />
