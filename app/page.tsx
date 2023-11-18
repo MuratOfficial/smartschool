@@ -54,7 +54,7 @@ export default function Home() {
         width={1920}
         height={320}
         alt="rectfooter"
-        className="absolute top-[5435px]"
+        className="absolute top-[5560px]"
       />
       <Image
         src="/5/rect5.png"
@@ -82,7 +82,7 @@ export default function Home() {
         width={1920}
         height={790}
         alt="lastrect"
-        className="absolute top-[4900px]"
+        className="absolute top-[5025px]"
       />
       <Image
         src="/clouds/clouds1.png"

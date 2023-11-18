@@ -1,6 +1,12 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { Element } from "react-scroll";
+import {
+  AnimateScrollDownHorizontal,
+  AnimateScrollDownHorizontalLeft,
+} from "./animations";
 
 function AboutCourses() {
   return (
@@ -23,7 +29,7 @@ function AboutCourses() {
           </p>
           <Link
             href="#"
-            className="text-[#7594ad] underline underline-offset-2"
+            className="text-[#7594ad] underline underline-offset-2 hover:text-blue-400"
           >
             Посмотреть сертификат
           </Link>
@@ -144,19 +150,25 @@ function AboutCourses() {
       </div>
       <div className="h-full w-full flex flex-col gap-y-16 py-4">
         <div className="flex flex-col mt-8">
-          <p className="text-4xl font-bold text-blue-950">
-            Запишись на{" "}
-            <span className="font-black text-neutral-50 bg-gradient-to-t from-blue-950 to-blue-800 rounded-xl drop-shadow-lg p-1">
-              бесплатную{" "}
-            </span>{" "}
-          </p>
-          <p className="text-4xl font-bold mb-4 text-blue-950">
-            проверку своего уровня
-          </p>
+          <AnimateScrollDownHorizontalLeft>
+            <Element name="education">
+              <p className="text-4xl font-bold text-blue-950">
+                Запишись на{" "}
+                <span className="font-black text-neutral-50 bg-gradient-to-t from-blue-950 to-blue-800 rounded-xl drop-shadow-lg p-1">
+                  бесплатную{" "}
+                </span>{" "}
+              </p>
+            </Element>
+
+            <p className="text-4xl font-bold mb-4 text-blue-950">
+              проверку своего уровня
+            </p>
+          </AnimateScrollDownHorizontalLeft>
+
           <p className=" mb-4 text-blue-950">
             Длительность курса зависит от уровня студента.
           </p>
-          <button className=" w-fit text-sm text-white font-semibold text-center rounded-md p-2 bg-[#e30613]">
+          <button className=" w-fit text-sm hover:shadow-2xl hover:ring-2 hover:text-red-600 hover:ring-red-600 hover:bg-transparent transition delay-150 duration-500 text-white font-semibold text-center rounded-md p-2 bg-[#e30613]">
             Пройти проверку
           </button>
           <Image
@@ -168,9 +180,12 @@ function AboutCourses() {
           />
         </div>
         <div className="flex flex-col mt-8">
-          <p className="text-4xl font-bold mb-6 text-blue-950">
-            Программа курса
-          </p>
+          <AnimateScrollDownHorizontal>
+            <p className="text-4xl font-bold mb-6 text-blue-950">
+              Программа курса
+            </p>
+          </AnimateScrollDownHorizontal>
+
           <div className="w-full h-fit rounded-t-lg shadow-4xl flex flex-row gap-x-8 font-['Roboto']">
             <div className="p-4 text-blue-950">
               <p className="font-bold text-xl mb-3 text-blue-950">Курс</p>

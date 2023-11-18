@@ -1,5 +1,9 @@
 import Image from "next/image";
 import React from "react";
+import {
+  AnimateScrollDown,
+  AnimateScrollDownHorizontalLeft,
+} from "./animations";
 
 function HeroSecondaryText() {
   return (
@@ -34,11 +38,17 @@ function HeroSecondaryText() {
           className="absolute top-8 right-0"
         />
         <div className="w-1/2 relative">
-          <p className="text-left font-bold text-4xl leading-tight text-[#202e58]">
-            Для чего нужен
-          </p>
+          <AnimateScrollDownHorizontalLeft>
+            <p className="text-left font-bold text-4xl leading-tight text-[#202e58]">
+              Для чего нужен
+            </p>
+          </AnimateScrollDownHorizontalLeft>
+
           <div className="flex flex-row gap-x-4">
-            <span className="font-black text-7xl text-[#202e58]">IELTS</span>
+            <AnimateScrollDown>
+              <span className="font-black text-7xl text-[#202e58]">IELTS</span>
+            </AnimateScrollDown>
+
             <span className="pt-4">
               <Image
                 src="/2/znakVopr.png"
