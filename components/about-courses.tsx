@@ -136,8 +136,8 @@ function AboutCourses() {
             </p>
             <p className="text-neutral-100 text-xs">
               Центры расположены в Самал возле ТРЦ{" "}
-              <strong>"Dostyk Plaza"</strong>и возле ТРЦ{" "}
-              <strong>"Forum"</strong>
+              <strong>&ldquo;Dostyk Plaza&rdquo;</strong>и возле ТРЦ{" "}
+              <strong>&ldquo;Forum&rdquo;</strong>
             </p>
           </div>
         </div>
