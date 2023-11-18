@@ -37,7 +37,7 @@ function HeroImage() {
         width={180}
         height={180}
         alt="bulb"
-        className="absolute  inset-y-16 inset-x-72 z-10"
+        className="absolute  inset-y-16 inset-x-72 z-10 hover:-rotate-12 transition duration-700 delay-100 hover:brightness-125 cursor-alias"
       />
       <Image
         src="/clouds/clouds7.png"

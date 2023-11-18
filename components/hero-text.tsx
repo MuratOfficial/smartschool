@@ -18,7 +18,7 @@ function HeroText() {
           placeholder="+7 (777) 777 77 77"
           className="text-sm h-12 text-center shadow-3xl rin border-transparent border-2 bg-transparent py-3 px-3 rounded-s-md font-['Roboto']"
         />
-        <button className="h-12 text-sm text-white hover:bg-red-900 font-semibold text-center rounded-e-md p-3 bg-[#e30613]">
+        <button className="h-12 text-sm text-white hover:bg-red-700 font-semibold text-center rounded-e-md p-3 bg-[#e30613]">
           Консультация
         </button>
       </div>

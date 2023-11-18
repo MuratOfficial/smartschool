@@ -35,7 +35,7 @@ function Form() {
             placeholder="+7 (777) 777 77 77"
             className="text-sm h-12 text-left shadow-3xl rin border-neutral-100 border-2 bg-neutral-100 py-3 px-3 rounded-s-md font-['Roboto']"
           />
-          <button className="h-12 text-sm hover:bg-red-900  text-white font-semibold text-center rounded-e-md p-3 bg-[#e30613]">
+          <button className="h-12 text-sm hover:bg-red-700  text-white font-semibold text-center rounded-e-md p-3 bg-[#e30613]">
             Консультация
           </button>
         </div>

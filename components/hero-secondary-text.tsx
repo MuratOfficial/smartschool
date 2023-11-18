@@ -14,7 +14,7 @@ function HeroSecondaryText() {
           width={300}
           height={300}
           alt="plane"
-          className="absolute z-20 inset-x-60 inset-y-24"
+          className="absolute z-20 inset-x-60 inset-y-24 hover:scale-75 transition duration-1000 delay-300 hover:translate-x-12"
         />
         <Image
           src="/clouds/clouds2.png"
@@ -55,7 +55,7 @@ function HeroSecondaryText() {
                 width={100}
                 height={100}
                 alt="znakVopr"
-                className=""
+                className="hover:-rotate-12 transition delay-100 duration-500 hover:scale-110 cursor-help"
               />
             </span>
           </div>
