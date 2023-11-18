@@ -1,23 +1,24 @@
+import { cn } from "@/lib/utils";
 import Link from "next/link";
 import React from "react";
 
-export interface CardItem {
-  url: string;
+interface CollageCardProps {
+  url: String;
+  vitrine: boolean;
 }
 
-function CollageCard(data: CardItem) {
+function CollageCard({ url, vitrine }: CollageCardProps) {
   return (
     <div
-      className="card lg:w-[400px] lg:h-[410px] xs:w-[320px] xs:h-[340px] bg-white rounded-lg group/item flex flex-col justify-end hover:brightness-90 transition duration-150 delay-75"
+      className={cn(
+        "lg:w-[380px] lg:h-[220px]  rounded-lg transition-all duration-500 delay-100 z-20 bg-cover shadow-2xl",
+        vitrine === true && "lg:w-[400px] lg:h-[260px]"
+      )}
       // data.bigFrame === true &&
       //   "lg:w-[826px] lg:h-[640px] xs:w-[320px] xs:h-[340px]"
 
-      style={{ backgroundImage: `url(${data?.url})` }}
-    >
-      <div className=" lg:p-6 xs:p-4  flex flex-col bg-neutral-900 bg-opacity-90 rounded-b-md w-full xs:h-24 lg:h-32">
-        {" "}
-      </div>
-    </div>
+      style={{ backgroundImage: `url(${url})` }}
+    ></div>
   );
 }
 
