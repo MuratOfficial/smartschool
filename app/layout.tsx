@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "@fontsource-variable/montserrat";
 import "./globals.css";
-import Favicon from "@/public/favicon.ico";
-// const inter = Inter({ subsets: ['latin'] })
+const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "IELTS Smart School - Центр подготовки к экзамену IELTS в Алматы",
@@ -18,7 +17,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ru">
-      <body className="flex items-center flex-col ">{children}</body>
+      <body
+        className={` ${montserrat.style.fontFamily} flex items-center flex-col `}
+      >
+        {children}
+      </body>
     </html>
   );
 }
