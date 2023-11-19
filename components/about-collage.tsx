@@ -22,7 +22,7 @@ function AboutCollage() {
         <CollageCard url={imageUrl[ind]} vitrine={true} />
         <CollageCard url={imageUrl[ind + 1]} vitrine={false} />
       </div>
-      <div className="flex flex-row bg-neutral-100 bg-opacity-70 px-4 rounded-2xl p-2 w-fit gap-x-4 absolute sm:top-[300px] lg:top-[330px] z-30 sm:left-28 lg:left-[530px]">
+      <div className="flex flex-row bg-neutral-100 bg-opacity-70 px-4 rounded-2xl p-2 w-fit gap-x-4 absolute sm:top-[300px] lg:top-[370px] z-30 sm:left-28 lg:left-[530px]">
         <button
           className={cn(
             "w-2 h-2 rounded-full bg-neutral-600 hover:bg-neutral-800",

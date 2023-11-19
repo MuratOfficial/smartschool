@@ -6,8 +6,9 @@ import Favicon from "@/public/favicon.ico";
 // const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: "SmartSchool",
-  description: "Центр по подготовке к международному экзамену IELTS.",
+  title: "IELTS Smart School - Центр подготовки к экзамену IELTS в Алматы",
+  description:
+    " Групповые и индивидуальные занятия по подготовке к IELTS по всему Казахстану ✅ Оффлайн и Онлайн ➡️ Записывайтесь уже сегодня!",
 };
 
 export default function RootLayout({

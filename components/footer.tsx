@@ -19,16 +19,22 @@ function Footer() {
         </p>
 
         <div className="flex flex-row gap-x-8 pt-4 items-center">
-          <Link href="mailto:amina_b87@mail.ru">
+          <Link
+            href="https://www.facebook.com/smartschool.almaty/"
+            target="_blank"
+          >
             <Image
               width={20}
               height={20}
-              src="/email.png"
+              src="/footer/Facebook.png"
               alt="logo"
               className="hover:scale-110"
             />
           </Link>
-          <Link href="https://www.instagram.com/tamarailyassova">
+          <Link
+            href="https://www.instagram.com/tamarailyassova"
+            target="_blank"
+          >
             <Image
               width={20}
               height={20}
@@ -37,7 +43,10 @@ function Footer() {
               className="hover:scale-110"
             />
           </Link>
-          <Link href="https://www.youtube.com/channel/UC5Bwx1x5v5giOX8v-h6Anlw">
+          <Link
+            href="https://www.youtube.com/channel/UC5Bwx1x5v5giOX8v-h6Anlw"
+            target="_blank"
+          >
             <Image
               width={20}
               height={20}

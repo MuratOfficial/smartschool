@@ -55,7 +55,7 @@ export default function Home() {
         height={600}
         alt="rect2"
         src="/1/rectsm5.png"
-        className="absolute   lg:collapse sm:visible top-[7910px] z-0"
+        className="absolute   lg:collapse sm:visible top-[7880px] z-0"
       />
       <Image
         src="/3/Group1671.png"
@@ -97,21 +97,28 @@ export default function Home() {
         width={1920}
         height={790}
         alt="rect5"
-        className="absolute lg:visible sm:collapse top-[3710px]"
+        className="absolute lg:visible sm:collapse top-[3710px] z-10"
+      />
+      <Image
+        src="/1/rectlastlg.png"
+        width={1920}
+        height={1078}
+        alt="rect5"
+        className="absolute lg:visible sm:collapse top-[4310px] z-0"
       />
       <Image
         src="/6/1t.png"
         width={180}
         height={180}
         alt="rect5"
-        className="absolute lg:visible sm:collapse top-[3920px] right-36"
+        className="absolute lg:visible sm:collapse top-[3920px] right-36 z-10"
       />
       <Image
         src="/6/2t.png"
         width={200}
         height={200}
         alt="rect5"
-        className="absolute lg:visible sm:collapse top-[3980px] left-36"
+        className="absolute lg:visible sm:collapse top-[3980px] left-36 z-10"
       />
       <Image
         src="/footer/lastrect.png"

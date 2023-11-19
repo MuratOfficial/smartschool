@@ -5,7 +5,7 @@ import { AnimateScrollDownHorizontalLeft } from "./animations";
 
 function Form() {
   return (
-    <div className="flex flex-col gap-y-6 lg:max-w-[1200px] sm:max-w-[360px] items-center z-10 lg:w-[1200px] sm:px-4 lg:px-48 h-full bg-transparent pt-12 pb-6 relative">
+    <div className="flex flex-col gap-y-6 lg:max-w-[1200px] sm:max-w-[360px] items-center z-10 lg:w-[1200px] sm:px-4 lg:px-48 h-full bg-transparent sm:pt-12 lg:pt-16 pb-6 relative">
       <Image
         src="/5/lastHeroImg.png"
         width={320}
@@ -43,7 +43,11 @@ function Form() {
         </div>
         <p className="text-sm mt-4 font-['Roboto'] text-neutral-50">
           Нажимая, Вы принимаете <br />{" "}
-          <Link href="#" className="underline underline-offset-2">
+          <Link
+            href="https://docs.google.com/document/d/11sgv_B--KWkjlPLvr1igfrecfCkmSi3-"
+            target="_blank"
+            className="underline underline-offset-2"
+          >
             политику конфиденциальности
           </Link>
         </p>
