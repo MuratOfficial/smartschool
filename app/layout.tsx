@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
 import "./globals.css";
-const montserrat = Montserrat({ subsets: ["latin"] });
+import localFont from "next/font/local";
+
+// Font files can be colocated inside of `pages`
+const myFont = localFont({ src: "./Montserrat-Medium.ttf" });
 
 export const metadata: Metadata = {
   title: "IELTS Smart School - Центр подготовки к экзамену IELTS в Алматы",
@@ -17,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="ru">
       <body
-        className={` ${montserrat.style.fontFamily} flex items-center flex-col `}
+        className={` ${myFont.style.fontFamily} flex items-center flex-col `}
       >
         {children}
       </body>
