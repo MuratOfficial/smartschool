@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "@fontsource-variable/montserrat";
 import "./globals.css";
-
+import Favicon from "@/public/favicon.ico";
 // const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -17,9 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ru">
-      <body className="flex items-center flex-col overflow-x-hidden ">
-        {children}
-      </body>
+      <body className="flex items-center flex-col ">{children}</body>
     </html>
   );
 }

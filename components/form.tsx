@@ -11,7 +11,7 @@ function Form() {
         width={320}
         height={450}
         alt="rect5"
-        className="absolute right-48 z-0"
+        className="absolute lg:visible sm:collapse right-48 z-0"
       />
       <div className="flex flex-col w-full sm:text-center lg:text-left z-10">
         <AnimateScrollDownHorizontalLeft>
@@ -47,8 +47,8 @@ function Form() {
             политику конфиденциальности
           </Link>
         </p>
-        <div className="font-['Roboto'] text-blue-950 rounded-3xl py-3 px-6 mx-auto my-8 text-center bg-neutral-100 lg:w-1/2">
-          <p>
+        <div className="font-['Roboto'] text-blue-950 rounded-3xl h-fit py-3 px-6 sm:mx-0 lg:mx-auto my-8 text-center sm:w-2/3 bg-neutral-100 lg:w-1/2">
+          <p className=" lg:text-base sm:text-xs">
             Мы не только разработали <strong>эффективную программу</strong> ,
             основанную на <strong>25</strong>-летним опыте преподавания языка,
             но и создали дружелюбную атмосферу, где каждый ученик получает{" "}

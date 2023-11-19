@@ -1,6 +1,7 @@
 "use client";
+import { cn } from "@/lib/utils";
 import Image from "next/image";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Link as ScrollLink, Events, scrollSpy } from "react-scroll";
 
 function Navbar() {
@@ -24,6 +25,8 @@ function Navbar() {
       Events.scrollEvent.remove("end");
     };
   }, []);
+
+  const [nav, setNav] = useState(false);
 
   const handleSetActive = (to: string) => {
     console.log(to);
@@ -50,10 +53,33 @@ function Navbar() {
         height={50}
         src="/1/logo-smart-school-03.png"
         alt="logo"
-        className=""
+        className={cn(
+          "lg:w-[150px] sm:w-1/2 sm:pt-4 lg:pt-0",
+          nav === true &&
+            "sm:collapse sm:w-0 delay-150 duration-500 transition-all opacity-0"
+        )}
       />
-      <nav className="lg:visible sm:collapse">
-        <ul className="flex flex-row gap-x-10 text-[#4e6f89] font-['Roboto']">
+      <Image
+        width={150}
+        height={100}
+        src="/1/navbarmob.png"
+        alt="logo"
+        onClick={() => setNav(true)}
+        className={cn(
+          "lg:collapse sm:visible lg:w-0 lg:ml-0 opacity-100 cursor-pointer sm:ml-24 sm:w-[30px] sm:pt-4 lg:pt-0",
+          nav === true &&
+            "sm:collapse sm:w-0 transition-all sm:ml-0 delay-150 duration-500 opacity-0"
+        )}
+      />
+
+      <nav
+        className={cn(
+          "lg:visible sm:collapse lg:w-fit lg:opacity-100 sm:opacity-0 sm:w-0",
+          nav === true &&
+            "sm:visible sm:w-full transition-all  pt-4 delay-150 duration-700 sm:opacity-100"
+        )}
+      >
+        <ul className="flex flex-row lg:normal-case sm:lowercase sm:gap-x-6 lg:gap-x-10 text-[#4e6f89] font-['Roboto'] ">
           {routes.map((el, index) => (
             <ScrollLink
               key={index}

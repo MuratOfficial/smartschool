@@ -16,21 +16,21 @@ function HeroImage() {
         width={400}
         height={450}
         alt="ellipse"
-        className="absolute inset-y-4 inset-x-20"
+        className="absolute inset-y-4 sm:inset-x-12 lg:inset-x-20"
       />
       <Image
         src="/1/Sloi19.png"
         width={220}
         height={220}
         alt="sloi19"
-        className="absolute  inset-x-72"
+        className="absolute sm:inset-x-28 lg:inset-x-72"
       />
       <Image
         src="/1/HeroImg.png"
         width={480}
         height={480}
         alt="ellipse"
-        className="absolute inset-x-16 z-10"
+        className="absolute sm:inset-x-6 lg:inset-x-16 z-10"
       />
       <Image
         src="/1/Bulb.png"
@@ -44,7 +44,7 @@ function HeroImage() {
         width={500}
         height={500}
         alt="clouds1"
-        className="absolute  inset-y-80 inset-x-40 z-10"
+        className="absolute  inset-y-80 sm:inset-x-4 lg:inset-x-40 z-10"
       />
       <Image
         src="/clouds/clouds5.png"

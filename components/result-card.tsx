@@ -30,7 +30,7 @@ function ResultCard({ avatar, name, point, desc }: ResultProps) {
         </div>
       </div>
       <div className="h-fit ">
-        <p className="lg:text-md sm:text-xs text-blue-950">{desc}</p>
+        <p className=" lg:text-base sm:text-xs text-blue-950">{desc}</p>
       </div>
     </div>
   );

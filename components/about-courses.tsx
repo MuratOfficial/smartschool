@@ -41,7 +41,7 @@ function AboutCourses() {
           height={200}
           src="/clouds/clouds2.png"
           alt="clouds1"
-          className="absolute right-0 top-8"
+          className="absolute right-0  top-8"
         />
         <p className="text-center font-bold sm:text-3xl lg:text-[40px] text-neutral-100 leading-tight pt-3 pb-5">
           Почему выбирают <strong>Smart School?</strong>
@@ -148,7 +148,7 @@ function AboutCourses() {
           </div>
         </div>
       </div>
-      <div className="h-full w-full flex flex-col gap-y-16 py-4 lg:px-0 sm:px-4">
+      <div className="h-full w-full flex flex-col gap-y-16 lg:pb-0 sm:pb-6 py-4 lg:px-0 sm:px-4 relative">
         <div className="flex flex-col sm:mt-0 lg:mt-8 lg:text-left sm:text-center">
           <AnimateScrollDownHorizontalLeft>
             <Element name="education">
@@ -176,7 +176,7 @@ function AboutCourses() {
             height={354}
             src="/5/kniga.png"
             alt="book"
-            className="absolute right-72"
+            className="absolute lg:top-10 lg:px-0 sm:px-20  sm:top-64 right-0 z-10"
           />
         </div>
         <div className="flex flex-col mt-8">

@@ -14,75 +14,111 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex  relative lg:max-w-[1920px] lg:max-h-[7070px] sm:max-w-[360px] flex-col items-center min-h-screen justify-between sm:px-0 lg:px-48">
+      {/**Bg Images block */}
       <Image
         width={1920}
         height={1530}
         alt="rect2"
         src="/1/rect2.png"
-        className="absolute    top-0 "
+        className="absolute   lg:visible sm:collapse top-0 "
+      />
+      <Image
+        width={1920}
+        height={1530}
+        alt="rect2"
+        src="/1/rectsm1.png"
+        className="absolute   lg:collapse sm:visible top-[250px] "
+      />
+      <Image
+        width={1920}
+        height={1530}
+        alt="rect2"
+        src="/1/rectsm2.png"
+        className="absolute   lg:collapse sm:visible top-[1830px] z-0"
+      />
+      <Image
+        width={1920}
+        height={1530}
+        alt="rect2"
+        src="/1/rectsm3.png"
+        className="absolute   lg:collapse sm:visible top-[2320px] z-0"
+      />
+      <Image
+        width={360}
+        height={600}
+        alt="rect2"
+        src="/1/rectsm4.png"
+        className="absolute   lg:collapse sm:visible top-[5380px] z-0"
+      />
+      <Image
+        width={360}
+        height={600}
+        alt="rect2"
+        src="/1/rectsm5.png"
+        className="absolute   lg:collapse sm:visible top-[7910px] z-0"
       />
       <Image
         src="/3/Group1671.png"
         width={1539}
         height={1086}
         alt="group1671"
-        className="absolute top-[910px] px-28 pt-16"
+        className="absolute lg:top-[910px] sm:top-[1800px] lg:visible sm:collapse lg:px-28 lg:pt-16"
       />
       <Image
         src="/3/rect3.png"
         width={1920}
         height={617}
         alt="rect3"
-        className="absolute top-[1720px] z-10"
+        className="absolute top-[1720px] lg:visible sm:collapse z-10"
       />
       <Image
         src="/3/TI_2.png"
         width={290}
         height={290}
         alt="TI2"
-        className="absolute top-[1270px] z-0 right-[385px]"
+        className="absolute lg:top-[1270px] lg:visible sm:collapse z-0 lg:right-[385px]"
       />
       <Image
         src="/4/rect4.png"
         width={1372}
         height={771}
         alt="rect4"
-        className="absolute top-[2460px] px-40"
+        className="absolute top-[2460px] lg:visible sm:collapse px-40"
       />
       <Image
         src="/footer/Rectangle322.png"
         width={1920}
-        height={320}
+        height={290}
         alt="rectfooter"
-        className="absolute top-[5560px]"
+        className="absolute lg:visible sm:collapse top-[5536px]"
       />
       <Image
         src="/5/rect5.png"
         width={1920}
         height={790}
         alt="rect5"
-        className="absolute top-[3710px]"
+        className="absolute lg:visible sm:collapse top-[3710px]"
       />
       <Image
         src="/6/1t.png"
         width={180}
         height={180}
         alt="rect5"
-        className="absolute top-[3920px] right-36"
+        className="absolute lg:visible sm:collapse top-[3920px] right-36"
       />
       <Image
         src="/6/2t.png"
         width={200}
         height={200}
         alt="rect5"
-        className="absolute top-[3980px] left-36"
+        className="absolute lg:visible sm:collapse top-[3980px] left-36"
       />
       <Image
         src="/footer/lastrect.png"
         width={1920}
         height={790}
         alt="lastrect"
-        className="absolute top-[5025px]"
+        className="absolute lg:visible sm:collapse top-[5025px]"
       />
       <Image
         src="/clouds/clouds1.png"
@@ -112,6 +148,9 @@ export default function Home() {
         alt="clouds1"
         className="absolute top-[500px] right-0"
       />
+
+      {/**Bg Images block */}
+
       <Navbar />
       <div className="flex lg:flex-row sm:flex-col sm:px-0 lg:px-48 lg:w-[1200px] lg:max-w-[1200px] sm:max-w-[480px] items-center h-full py-8">
         <HeroText />

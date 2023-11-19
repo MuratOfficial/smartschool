@@ -28,7 +28,7 @@ function Discount() {
       </p>
 
       <AnimateScrollDownHorizontalLeft>
-        <div className="grid lg:grid-cols-4 sm:grid-cols-1 gap-4 font-['Roboto'] w-full">
+        <div className="grid lg:grid-cols-4 sm:grid-cols-1 lg:gap-4 sm:gap-8 font-['Roboto'] w-full">
           <div className="flex flex-col gap-y-1 text-neutral-100 sm:items-center lg:items-start ">
             <Image
               width={60}
