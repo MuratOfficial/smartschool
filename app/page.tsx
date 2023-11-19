@@ -13,13 +13,13 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex  relative lg:max-w-[1920px] lg:max-h-[7070px] flex-col items-center min-h-screen justify-between px-48">
+    <main className="flex  relative lg:max-w-[1920px] lg:max-h-[7070px] sm:max-w-[360px] flex-col items-center min-h-screen justify-between sm:px-0 lg:px-48">
       <Image
         width={1920}
         height={1530}
         alt="rect2"
         src="/1/rect2.png"
-        className="absolute top-0"
+        className="absolute    top-0 "
       />
       <Image
         src="/3/Group1671.png"
@@ -113,7 +113,7 @@ export default function Home() {
         className="absolute top-[500px] right-0"
       />
       <Navbar />
-      <div className="flex flex-row px-48 lg:w-[1200px] lg:max-w-[1200px] items-center h-full py-8">
+      <div className="flex lg:flex-row sm:flex-col sm:px-0 lg:px-48 lg:w-[1200px] lg:max-w-[1200px] sm:max-w-[480px] items-center h-full py-8">
         <HeroText />
         <HeroImage />
       </div>

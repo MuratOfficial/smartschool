@@ -55,11 +55,11 @@ function Results() {
   ];
 
   return (
-    <div className="flex flex-col gap-y-2 lg:max-w-[1920px] items-center z-10 lg:w-[1200px] px-48 h-full bg-transparent py-8 ">
+    <div className="flex flex-col gap-y-2 lg:max-w-[1920px] sm:max-w-[360px] items-center z-10 lg:w-[1200px] sm:px-4 pb-8 lg:px-48 h-full bg-transparent py-8 ">
       <div className="flex flex-row items-center justify-between w-full">
         <Element name="testimonials">
           <AnimateScrollDownHorizontal>
-            <p className="text-4xl text-left font-bold text-blue-950">
+            <p className="sm:text-3xl lg:text-4xl sm:text-center lg:text-left font-bold text-blue-950">
               Результаты наших студентов
             </p>
           </AnimateScrollDownHorizontal>
@@ -73,8 +73,8 @@ function Results() {
           className=""
         />
       </div>
-      <div className="w-full h-[500px] relative">
-        <div className="w-full h-full flex flex-row  justify-between">
+      <div className="w-full sm:h-full lg:h-[500px] relative">
+        <div className="w-full h-full flex lg:flex-row sm:flex-col gap-y-4 justify-between">
           <ResultCard
             avatar={results[ind - 1].avatar}
             name={results[ind - 1].name}

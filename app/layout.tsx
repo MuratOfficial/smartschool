@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ru">
-      <body className="flex items-center flex-col overflow-x-hidden">
+      <body className="flex items-center flex-col overflow-x-hidden ">
         {children}
       </body>
     </html>

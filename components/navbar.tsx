@@ -44,7 +44,7 @@ function Navbar() {
     },
   ];
   return (
-    <div className="flex flex-row gap-x-20 px-48 py-4 lg:w-[1200px] items-center justify-start z-50">
+    <div className="flex flex-row lg:gap-x-20 sm:gap-x-4 sm:px-4 lg:px-48 sm:py-0 lg:py-4 sm:w-[360px] lg:w-[1200px] items-center justify-start z-50">
       <Image
         width={150}
         height={50}
@@ -52,7 +52,7 @@ function Navbar() {
         alt="logo"
         className=""
       />
-      <nav>
+      <nav className="lg:visible sm:collapse">
         <ul className="flex flex-row gap-x-10 text-[#4e6f89] font-['Roboto']">
           {routes.map((el, index) => (
             <ScrollLink

@@ -3,8 +3,8 @@ import React from "react";
 
 function HeroText() {
   return (
-    <div className="h-full flex flex-col justify-center px-0 text-left lg:max-w-[480px] z-10 relative">
-      <h1 className="font-bold text-[46px] break-all leading-tight text-[#2b3860]">
+    <div className="h-full flex flex-col justify-center px-0 lg:text-left sm:text-center lg:max-w-[480px] z-10 relative">
+      <h1 className="font-bold lg:text-[46px] sm:text-3xl sm:break-normal lg:break-all sm:leading-none lg:leading-tight text-[#2b3860]">
         Набери желаемый балл на <span className=" font-black">IELTS</span>
       </h1>
 

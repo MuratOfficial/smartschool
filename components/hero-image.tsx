@@ -3,13 +3,13 @@ import React from "react";
 
 function HeroImage() {
   return (
-    <div className="lg:h-[480px] flex flex-row lg:w-[480px] lg:max-w-[480px] z-10 relative">
+    <div className="lg:h-[480px] sm:h-[360px] sm:w-[360px] flex flex-row lg:w-[480px] lg:max-w-[480px] z-10 relative">
       <Image
         src="/1/Scale.png"
         width={180}
         height={350}
         alt="scale"
-        className="absolute  inset-y-8"
+        className="absolute inset-y-8"
       />
       <Image
         src="/1/Ellipse.png"
@@ -37,7 +37,7 @@ function HeroImage() {
         width={180}
         height={180}
         alt="bulb"
-        className="absolute  inset-y-16 inset-x-72 z-10 hover:-rotate-12 transition duration-700 delay-100 hover:brightness-125 cursor-alias"
+        className="absolute sm:inset-x-12 inset-y-16 lg:inset-x-72 z-10 hover:-rotate-12 transition duration-700 delay-100 hover:brightness-125 cursor-alias"
       />
       <Image
         src="/clouds/clouds7.png"

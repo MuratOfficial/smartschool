@@ -8,26 +8,28 @@ import {
 
 function Discount() {
   return (
-    <div className="flex flex-col gap-y-6 lg:max-w-[1200px] items-center z-10 lg:w-[1200px] px-48 h-full bg-transparent py-12">
+    <div className="flex flex-col gap-y-6 lg:max-w-[1200px] sm:max-w-[360px] items-center z-10 lg:w-[1200px] sm:px-4 lg:px-48 h-full bg-transparent my-16">
       <AnimateScrollDownHorizontal>
-        <p className="text-4xl text-[#202f59] text-center font-bold leading-snug">
-          *Только в Smart School <br />{" "}
-          <strong className=" bg-gradient-to-t from-blue-950 to-blue-800 text-neutral-100 px-4 py-1 rounded-lg">
-            70 дополнительных занятий
-          </strong>{" "}
-          <br /> в <strong>IELTS Club</strong> в подарок!
+        <div className="sm:text-2xl lg:text-4xl text-[#202f59] text-center font-bold leading-snug">
+          <p>*Только в Smart School</p>
+        </div>
+        <div className="sm:text-2xl lg:text-4xl font-bold text-center bg-gradient-to-t from-blue-950 to-blue-800 text-neutral-100 px-4 py-1 rounded-lg leading-snug">
+          <strong className=" ">70 дополнительных занятий</strong>{" "}
+        </div>
+        <p className="sm:text-2xl lg:text-4xl text-[#202f59] text-center font-bold leading-snug">
+          в <strong>IELTS Club</strong> в подарок!
         </p>
       </AnimateScrollDownHorizontal>
 
-      <p className="font-['Roboto'] text-lg text-neutral-100 text-center">
+      <p className="font-['Roboto'] sm:text-md lg:text-lg text-neutral-100 text-center">
         <strong>IELTS Club</strong> - это закрытый клуб, дополнительные занятия
         для практики английского языка и навыков, необходимых при сдачи{" "}
         <strong>IELTS</strong> в неформальной обстановке
       </p>
 
       <AnimateScrollDownHorizontalLeft>
-        <div className="grid grid-cols-4 gap-4 font-['Roboto'] w-full">
-          <div className="flex flex-col gap-y-1 text-neutral-100">
+        <div className="grid lg:grid-cols-4 sm:grid-cols-1 gap-4 font-['Roboto'] w-full">
+          <div className="flex flex-col gap-y-1 text-neutral-100 sm:items-center lg:items-start ">
             <Image
               width={60}
               height={60}
@@ -38,7 +40,7 @@ function Discount() {
             <p className="font-bold text-xs">MockTest</p>
             <p className="text-xs">Ежедневные пробные тесты IELTS</p>
           </div>
-          <div className="flex flex-col gap-y-1 text-neutral-100">
+          <div className="flex flex-col gap-y-1 text-neutral-100 sm:items-center lg:items-start">
             <Image
               width={60}
               height={60}
@@ -51,7 +53,7 @@ function Discount() {
               Cимуляция настоящего разговорного экзамена
             </p>
           </div>
-          <div className="flex flex-col gap-y-1 text-neutral-100">
+          <div className="flex flex-col gap-y-1 text-neutral-100 sm:items-center lg:items-start">
             <Image
               width={60}
               height={60}
@@ -64,7 +66,7 @@ function Discount() {
               Литературный клуб для улучшения словарного запаса и грамматики
             </p>
           </div>
-          <div className="flex flex-col gap-y-1 text-neutral-100">
+          <div className="flex flex-col gap-y-1 text-neutral-100 sm:items-center lg:items-start">
             <Image
               width={60}
               height={60}
@@ -77,7 +79,7 @@ function Discount() {
               Помощь в генерировании идей на Writing Task 2
             </p>
           </div>
-          <div className="flex flex-col gap-y-1 text-neutral-100">
+          <div className="flex flex-col gap-y-1 text-neutral-100 sm:items-center lg:items-start">
             <Image
               width={60}
               height={60}
@@ -90,7 +92,7 @@ function Discount() {
               Практика ответов на вопросы экзамена IELTS
             </p>
           </div>
-          <div className="flex flex-col gap-y-1 text-neutral-100">
+          <div className="flex flex-col gap-y-1 text-neutral-100 sm:items-center lg:items-start">
             <Image
               width={60}
               height={60}
@@ -104,7 +106,7 @@ function Discount() {
               речи
             </p>
           </div>
-          <div className="flex flex-col gap-y-1 text-neutral-100">
+          <div className="flex flex-col gap-y-1 text-neutral-100 sm:items-center lg:items-start">
             <Image
               width={60}
               height={60}
@@ -118,7 +120,7 @@ function Discount() {
               пределы офисных стен
             </p>
           </div>
-          <div className="flex flex-col gap-y-1 text-neutral-100">
+          <div className="flex flex-col gap-y-1 text-neutral-100 sm:items-center lg:items-start">
             <Image
               width={60}
               height={60}

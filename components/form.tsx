@@ -5,7 +5,7 @@ import { AnimateScrollDownHorizontalLeft } from "./animations";
 
 function Form() {
   return (
-    <div className="flex flex-col gap-y-6 lg:max-w-[1200px] items-center z-10 lg:w-[1200px] px-48 h-full bg-transparent pt-12 pb-6 relative">
+    <div className="flex flex-col gap-y-6 lg:max-w-[1200px] sm:max-w-[360px] items-center z-10 lg:w-[1200px] sm:px-4 lg:px-48 h-full bg-transparent pt-12 pb-6 relative">
       <Image
         src="/5/lastHeroImg.png"
         width={320}
@@ -13,15 +13,17 @@ function Form() {
         alt="rect5"
         className="absolute right-48 z-0"
       />
-      <div className="flex flex-col w-full text-left z-10">
+      <div className="flex flex-col w-full sm:text-center lg:text-left z-10">
         <AnimateScrollDownHorizontalLeft>
-          <p className="text-4xl font-bold text-blue-950">
+          <p className="sm:text-3xl lg:text-4xl font-bold text-blue-950">
             Запись на{" "}
             <span className="font-black text-neutral-50 bg-gradient-to-t from-blue-950 to-blue-800 rounded-xl drop-shadow-lg p-1">
               бесплатный{" "}
             </span>{" "}
           </p>
-          <p className="text-4xl font-bold text-blue-950">пробный урок</p>
+          <p className="sm:text-3xl lg:text-4xl font-bold text-blue-950">
+            пробный урок
+          </p>
         </AnimateScrollDownHorizontalLeft>
 
         <input
@@ -45,7 +47,7 @@ function Form() {
             политику конфиденциальности
           </Link>
         </p>
-        <div className="font-['Roboto'] text-blue-950 rounded-3xl py-3 px-6 mx-auto my-8 text-center bg-neutral-100 w-1/2">
+        <div className="font-['Roboto'] text-blue-950 rounded-3xl py-3 px-6 mx-auto my-8 text-center bg-neutral-100 lg:w-1/2">
           <p>
             Мы не только разработали <strong>эффективную программу</strong> ,
             основанную на <strong>25</strong>-летним опыте преподавания языка,
