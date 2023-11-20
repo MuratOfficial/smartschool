@@ -21,6 +21,9 @@ const config: Config = {
         "3xl": "0 5px 30px 0 rgba(0, 0, 0, 0.3)",
         "4xl": "0 0 10px 0 rgba(0, 0, 0, 0.3)",
       },
+      fontFamily: {
+        sans: ["var(--font-montserrat)"],
+      },
     },
   },
   plugins: [],
