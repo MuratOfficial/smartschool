@@ -35,7 +35,7 @@ function AboutCourses() {
           </Link>
         </div>
       </div>
-      <div className="h-full w-full mb-12 relative lg:bg-transparent lg:rounded-none sm:rounded-2xl sm:bg-blue-900">
+      <div className="h-full w-full lg:mb-12 sm:mb-6 relative lg:bg-transparent lg:rounded-none sm:rounded-2xl sm:bg-blue-900">
         <Image
           width={200}
           height={200}
@@ -179,7 +179,7 @@ function AboutCourses() {
             height={354}
             src="/5/kniga.png"
             alt="book"
-            className="absolute lg:top-10 lg:pl-0 sm:pl-8  sm:top-64 right-0 z-10"
+            className="absolute lg:top-10 lg:pl-0 sm:pl-20  sm:top-56 right-0 z-10"
           />
         </div>
         <div className="flex flex-col mt-8">
