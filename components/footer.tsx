@@ -32,7 +32,7 @@ function Footer() {
             />
           </Link>
           <Link
-            href="https://www.instagram.com/tamarailyassova"
+            href="https://www.instagram.com/ielts_smartschool"
             target="_blank"
           >
             <Image
