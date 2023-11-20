@@ -13,7 +13,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex  relative lg:max-w-[1920px] lg:max-h-[7070px] sm:max-w-[360px] flex-col items-center min-h-screen justify-between sm:px-0 lg:px-48">
+    <main className="flex  relative lg:max-w-[1920px] lg:max-h-[7070px]  flex-col items-center min-h-screen justify-between sm:px-0 lg:px-48">
       {/**Bg Images block */}
       <Image
         width={1920}
@@ -34,28 +34,28 @@ export default function Home() {
         height={1530}
         alt="rect2"
         src="/1/rectsm2.png"
-        className="absolute   lg:collapse sm:visible top-[1830px] z-0"
+        className="absolute   lg:collapse sm:visible top-[1850px] z-0"
       />
       <Image
         width={1920}
         height={1530}
         alt="rect2"
         src="/1/rectsm3.png"
-        className="absolute   lg:collapse sm:visible top-[2320px] z-0"
+        className="absolute   lg:collapse sm:visible top-[2350px] z-0"
       />
       <Image
-        width={360}
-        height={600}
+        width={1920}
+        height={1530}
         alt="rect2"
         src="/1/rectsm4.png"
-        className="absolute   lg:collapse sm:visible top-[5380px] z-0"
+        className="absolute   lg:collapse sm:visible top-[5440px] z-0"
       />
       <Image
-        width={360}
-        height={600}
+        width={1920}
+        height={1530}
         alt="rect2"
         src="/1/rectsm5.png"
-        className="absolute   lg:collapse sm:visible top-[7880px] z-0"
+        className="absolute   lg:collapse sm:visible top-[8020px] z-0"
       />
       <Image
         src="/3/Group1671.png"

@@ -179,7 +179,7 @@ function AboutCourses() {
             height={354}
             src="/5/kniga.png"
             alt="book"
-            className="absolute lg:top-10 lg:px-0 sm:px-20  sm:top-64 right-0 z-10"
+            className="absolute lg:top-10 lg:pl-0 sm:pl-8  sm:top-64 right-0 z-10"
           />
         </div>
         <div className="flex flex-col mt-8">

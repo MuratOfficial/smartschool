@@ -4,7 +4,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="grid lg:grid-cols-3 sm:grid-cols-1 lg:bg-transparent lg:py-0 sm:py-4 sm:bg-blue-900 font-['Roboto'] sm:gap-4 lg:gap-20 sm:px-4 lg:px-48 z-10 lg:w-[1200px] sm:max-w-[360px] lg:max-w-[1200px]  h-full ">
+    <div className="grid lg:grid-cols-3 sm:grid-cols-1 lg:bg-transparent lg:py-0 sm:py-4 sm:bg-blue-900 font-['Roboto'] sm:gap-4 lg:gap-20 sm:px-4 lg:px-48 z-10 lg:w-[1200px] sm:max-w-full lg:max-w-[1200px]  h-full ">
       <div className="flex flex-col items-center text-center">
         <Image
           width={150}

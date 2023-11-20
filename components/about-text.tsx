@@ -14,7 +14,7 @@ function AboutText() {
         <div className="lg:w-1/2 sm:w-full relative sm:py-0 lg:py-16 lg:text-left sm:text-center lg:px-0 sm:px-3">
           <Element name="about">
             <AnimateScrollDownHorizontalLeft>
-              <p className=" font-bold sm:text-3xl lg:text-[40px] text-[#2c3860] leading-tight sm:pt-0 lg:pt-4 sm:pb-6 lg:pb-10">
+              <p className=" font-bold sm:text-3xl lg:text-[40px] text-[#2c3860] leading-tight sm:pt-14 lg:pt-4 sm:pb-2 lg:pb-10">
                 О нашем центре
               </p>
             </AnimateScrollDownHorizontalLeft>
