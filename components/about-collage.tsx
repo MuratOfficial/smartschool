@@ -5,6 +5,40 @@ import { cn } from "@/lib/utils";
 
 function AboutCollage() {
   const [ind, setInd] = useState(1);
+  const [touchStart, setTouchStart] = useState(null);
+  const [touchEnd, setTouchEnd] = useState(null);
+
+  // the required distance between touchStart and touchEnd to be detected as a swipe
+  const minSwipeDistance = 50;
+
+  const onTouchStart = (e: any) => {
+    setTouchEnd(null); // otherwise the swipe is fired even with usual touch events
+    setTouchStart(e.targetTouches[0].clientX);
+  };
+
+  const onTouchMove = (e: any) => setTouchEnd(e.targetTouches[0].clientX);
+
+  const onTouchEnd = () => {
+    if (!touchStart || !touchEnd) return;
+    const distance = touchStart - touchEnd;
+    const isLeftSwipe = distance > minSwipeDistance;
+    const isRightSwipe = distance < -minSwipeDistance;
+    if (isLeftSwipe || isRightSwipe)
+      console.log("swipe", isLeftSwipe ? "left" : "right");
+
+    if (isRightSwipe) {
+      if (ind <= 5 && ind > 1) {
+        setInd(ind - 1);
+      }
+    }
+    if (isLeftSwipe) {
+      if (ind < 5 && ind >= 1) {
+        setInd(ind + 1);
+      }
+    }
+    console.log(ind);
+  };
+
   const imageUrl = [
     "/photos/1.jpg",
     "/photos/2.jpg",
@@ -17,7 +51,12 @@ function AboutCollage() {
 
   return (
     <div className="z-20 lg:mt-16 sm:mt-0 sm:py-4 lg:py-12 lg:max-w-[1920px] items-center lg:w-full sm:max-w-[360px] h-full relative">
-      <div className="w-full h-[370px] flex flex-row items-center gap-x-3 justify-center">
+      <div
+        className="w-full h-[370px] flex flex-row items-center gap-x-3 justify-center "
+        onTouchStart={onTouchStart}
+        onTouchMove={onTouchMove}
+        onTouchEnd={onTouchEnd}
+      >
         <CollageCard url={imageUrl[ind - 1]} vitrine={false} />
         <CollageCard url={imageUrl[ind]} vitrine={true} />
         <CollageCard url={imageUrl[ind + 1]} vitrine={false} />

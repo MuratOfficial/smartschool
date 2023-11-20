@@ -8,6 +8,39 @@ import { AnimateScrollDownHorizontal } from "./animations";
 
 function Results() {
   const [ind, setInd] = useState(1);
+  const [touchStart, setTouchStart] = useState(null);
+  const [touchEnd, setTouchEnd] = useState(null);
+
+  // the required distance between touchStart and touchEnd to be detected as a swipe
+  const minSwipeDistance = 50;
+
+  const onTouchStart = (e: any) => {
+    setTouchEnd(null); // otherwise the swipe is fired even with usual touch events
+    setTouchStart(e.targetTouches[0].clientX);
+  };
+
+  const onTouchMove = (e: any) => setTouchEnd(e.targetTouches[0].clientX);
+
+  const onTouchEnd = () => {
+    if (!touchStart || !touchEnd) return;
+    const distance = touchStart - touchEnd;
+    const isLeftSwipe = distance > minSwipeDistance;
+    const isRightSwipe = distance < -minSwipeDistance;
+    if (isLeftSwipe || isRightSwipe)
+      console.log("swipe", isLeftSwipe ? "left" : "right");
+
+    if (isRightSwipe) {
+      if (ind <= 6 && ind > 1) {
+        setInd(ind - 1);
+      }
+    }
+    if (isLeftSwipe) {
+      if (ind < 6 && ind >= 1) {
+        setInd(ind + 1);
+      }
+    }
+    console.log(ind);
+  };
 
   const results = [
     {
@@ -73,8 +106,13 @@ function Results() {
           className=""
         />
       </div>
-      <div className="w-full sm:h-full lg:h-[500px] relative">
-        <div className="w-full h-full flex lg:flex-row sm:flex-col gap-y-4 justify-between">
+      <div className="w-full sm:h-[810px] lg:h-[500px] relative">
+        <div
+          className="w-full h-full flex lg:flex-row sm:flex-col gap-y-4 justify-between"
+          onTouchStart={onTouchStart}
+          onTouchMove={onTouchMove}
+          onTouchEnd={onTouchEnd}
+        >
           <ResultCard
             avatar={results[ind - 1].avatar}
             name={results[ind - 1].name}
