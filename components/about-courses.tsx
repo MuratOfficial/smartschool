@@ -48,7 +48,7 @@ function AboutCourses() {
         </p>
         <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-5 font-['Roboto'] lg:px-0 sm:px-4 pt-2 lg:pb-4 sm:pb-8">
           <div className="flex flex-col gap-y-2 lg:items-start sm:items-center">
-            <Image width={50} height={60} src="/4/1.png" alt="1" className="" />
+            <Image width={50} height={60} src="/4/1.svg" alt="1" className="" />
             <p className="text-neutral-100 text-xs font-bold">
               8 лет на рынке Казахстана
             </p>
@@ -59,7 +59,7 @@ function AboutCourses() {
             </p>
           </div>
           <div className="flex flex-col gap-y-2 lg:items-start sm:items-center">
-            <Image width={50} height={60} src="/4/2.png" alt="2" className="" />
+            <Image width={50} height={60} src="/4/2.svg" alt="2" className="" />
             <p className="text-neutral-100 text-xs font-bold">
               Средний балл студентов - 7.5
             </p>
@@ -70,7 +70,7 @@ function AboutCourses() {
             </p>
           </div>
           <div className="flex flex-col gap-y-2 lg:items-start sm:items-center">
-            <Image width={50} height={60} src="/4/3.png" alt="1" className="" />
+            <Image width={50} height={60} src="/4/3.svg" alt="1" className="" />
             <p className="text-neutral-100 text-xs font-bold">
               Членство в IELTS Club
             </p>
@@ -81,7 +81,7 @@ function AboutCourses() {
             </p>
           </div>
           <div className="flex flex-col gap-y-2 lg:items-start sm:items-center">
-            <Image width={50} height={60} src="/4/4.png" alt="1" className="" />
+            <Image width={50} height={60} src="/4/4.svg" alt="1" className="" />
             <p className="text-neutral-100 text-xs font-bold">
               Авторские учебные материалы
             </p>
@@ -91,7 +91,7 @@ function AboutCourses() {
             </p>
           </div>
           <div className="flex flex-col gap-y-2 lg:items-start sm:items-center">
-            <Image width={50} height={60} src="/4/5.png" alt="2" className="" />
+            <Image width={50} height={60} src="/4/5.svg" alt="2" className="" />
             <p className="text-neutral-100 text-xs font-bold">
               Ежедневные пробные IELTS - Mock Tests
             </p>
@@ -101,13 +101,7 @@ function AboutCourses() {
             </p>
           </div>
           <div className="flex flex-col gap-y-2 lg:items-start sm:items-center">
-            <Image
-              width={50}
-              height={60}
-              src="/4/66.png"
-              alt="1"
-              className=""
-            />
+            <Image width={50} height={60} src="/4/6.svg" alt="1" className="" />
             <p className="text-neutral-100 text-xs font-bold">
               Онлайн и Офлайн форматы обучения
             </p>
@@ -116,7 +110,7 @@ function AboutCourses() {
             </p>
           </div>
           <div className="flex flex-col gap-y-2 lg:items-start sm:items-center">
-            <Image width={50} height={60} src="/4/7.png" alt="1" className="" />
+            <Image width={50} height={60} src="/4/7.svg" alt="1" className="" />
             <p className="text-neutral-100 text-xs font-bold">
               Преподаватели с зарубежным образованием и опытом работы
             </p>
@@ -126,7 +120,7 @@ function AboutCourses() {
             </p>
           </div>
           <div className="flex flex-col gap-y-2 lg:items-start sm:items-center">
-            <Image width={50} height={60} src="/4/8.png" alt="2" className="" />
+            <Image width={50} height={60} src="/4/8.svg" alt="2" className="" />
             <p className="text-neutral-100 text-xs font-bold">
               Обучение с уровня Elementary
             </p>
@@ -136,7 +130,7 @@ function AboutCourses() {
             </p>
           </div>
           <div className="flex flex-col gap-y-2 lg:items-start sm:items-center">
-            <Image width={50} height={60} src="/4/9.png" alt="1" className="" />
+            <Image width={50} height={60} src="/4/9.svg" alt="1" className="" />
             <p className="text-neutral-100 text-xs font-bold">
               Удобные расположения центра
             </p>
@@ -234,7 +228,8 @@ function AboutCourses() {
             <p className="text-md  text-neutral-50 px-3">
               Бесплатный доступ <br /> в{" "}
               <span className="font-semibold uppercase">IELTS Club</span> <br />
-              (60 уроков в месяц) <span className="font-black text-2xl">*</span>
+              (120 уроков в месяц){" "}
+              <span className="font-black text-2xl">*</span>
             </p>
           </div>
         </div>

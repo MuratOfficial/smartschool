@@ -25,7 +25,7 @@ function HeroText() {
       <Image
         width={185}
         height={64}
-        src="/1/Frame5kaspi.png"
+        src="/1/kaspired.svg"
         alt="kaspi"
         className="ml-8 mt-8"
       />

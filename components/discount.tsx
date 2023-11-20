@@ -14,7 +14,7 @@ function Discount() {
           <p>*Только в Smart School</p>
         </div>
         <div className="sm:text-2xl lg:text-4xl font-bold text-center bg-gradient-to-t from-blue-950 to-blue-800 text-neutral-100 px-4 py-1 rounded-lg leading-snug">
-          <strong className=" ">70 дополнительных занятий</strong>{" "}
+          <strong className=" ">120 дополнительных занятий</strong>{" "}
         </div>
         <p className="sm:text-2xl lg:text-4xl text-[#202f59] text-center font-bold leading-snug">
           в <strong>IELTS Club</strong> в подарок!
@@ -34,7 +34,7 @@ function Discount() {
               width={60}
               height={60}
               alt="figure1"
-              src="/6/1.png"
+              src="/6/1.svg"
               className=""
             />
             <p className="font-bold text-xs">MockTest</p>
@@ -45,7 +45,7 @@ function Discount() {
               width={60}
               height={60}
               alt="figure1"
-              src="/6/2.png"
+              src="/6/2.svg"
               className=""
             />
             <p className="font-bold text-xs">IELTS Speaking simulation test</p>
@@ -58,7 +58,7 @@ function Discount() {
               width={60}
               height={60}
               alt="figure1"
-              src="/6/3.png"
+              src="/6/3.svg"
               className=""
             />
             <p className="font-bold text-xs">Literature club</p>
@@ -71,7 +71,7 @@ function Discount() {
               width={60}
               height={60}
               alt="figure1"
-              src="/6/4.png"
+              src="/6/4.svg"
               className=""
             />
             <p className="font-bold text-xs">Debate club</p>
@@ -84,7 +84,7 @@ function Discount() {
               width={60}
               height={60}
               alt="figure1"
-              src="/6/5.png"
+              src="/6/5.svg"
               className=""
             />
             <p className="font-bold text-xs">IELTS Speaking</p>
@@ -97,7 +97,7 @@ function Discount() {
               width={60}
               height={60}
               alt="figure1"
-              src="/6/6.png"
+              src="/6/6.svg"
               className=""
             />
             <p className="font-bold text-xs">Cinema</p>
@@ -111,7 +111,7 @@ function Discount() {
               width={60}
               height={60}
               alt="figure1"
-              src="/6/7.png"
+              src="/6/7.svg"
               className=""
             />
             <p className="font-bold text-xs">Extra-сurricular</p>
@@ -125,7 +125,7 @@ function Discount() {
               width={60}
               height={60}
               alt="figure1"
-              src="/6/8.png"
+              src="/6/8.svg"
               className=""
             />
             <p className="font-bold text-xs">Game Nights</p>

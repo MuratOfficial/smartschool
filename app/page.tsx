@@ -27,7 +27,7 @@ export default function Home() {
         height={1530}
         alt="rect2"
         src="/1/rectsm1.png"
-        className="absolute   lg:collapse sm:visible top-[250px] "
+        className="absolute   lg:collapse sm:visible top-[200px] "
       />
       <Image
         width={1920}
@@ -48,7 +48,7 @@ export default function Home() {
         height={1530}
         alt="rect2"
         src="/1/rectsm4.png"
-        className="absolute   lg:collapse sm:visible top-[5440px] z-0"
+        className="absolute   lg:collapse sm:visible top-[5390px] z-0"
       />
       <Image
         width={1920}

@@ -14,7 +14,7 @@ function Footer() {
           className=""
         />
         <p className="text-xs py-4 leading-relaxed text-[#9dafbd]">
-          ТОО «SMARTSCHOOL» <br /> Образовательная деятельность. <br /> Центр по
+          ИП «IELTS Club» <br /> Образовательная деятельность. <br /> Центр по
           подготовке к международному экзамену IELTS.
         </p>
 
@@ -60,8 +60,11 @@ function Footer() {
       <div className="flex flex-col items-center text-center">
         <p className="text-sm text-neutral-100 py-2">Контакты</p>
         <p className="text-xs py-4 leading-relaxed text-[#9dafbd]">
-          +7 747 094 75 68 <br /> Улица Минусинская, 13Б; 4 этаж ​Улица
-          Жолдасбекова, 9а ​320 офис; 3 этаж
+          <a className="font-bold" href="tel:+77470947568">
+            +7 747 094 75 68{" "}
+          </a>
+          <br /> Улица Минусинская, 13Б; 4 этаж ​Улица Жолдасбекова, 9а ​320
+          офис; 3 этаж
         </p>
       </div>
       <div className="flex flex-col items-center text-center">

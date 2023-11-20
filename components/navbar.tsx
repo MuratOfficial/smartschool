@@ -51,7 +51,7 @@ function Navbar() {
       <Image
         width={150}
         height={50}
-        src="/1/logo-smart-school-03.png"
+        src="/1/logo.svg"
         alt="logo"
         className={cn(
           "lg:w-[150px] sm:w-1/2 sm:pt-4 lg:pt-0",

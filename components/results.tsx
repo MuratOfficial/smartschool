@@ -26,8 +26,8 @@ function Results() {
     const distance = touchStart - touchEnd;
     const isLeftSwipe = distance > minSwipeDistance;
     const isRightSwipe = distance < -minSwipeDistance;
-    if (isLeftSwipe || isRightSwipe)
-      console.log("swipe", isLeftSwipe ? "left" : "right");
+    // if (isLeftSwipe || isRightSwipe)
+    //   console.log("swipe", isLeftSwipe ? "left" : "right");
 
     if (isRightSwipe) {
       if (ind <= 6 && ind > 1) {
@@ -39,7 +39,7 @@ function Results() {
         setInd(ind + 1);
       }
     }
-    console.log(ind);
+    // console.log(ind);
   };
 
   const results = [

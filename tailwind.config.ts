@@ -22,7 +22,7 @@ const config: Config = {
         "4xl": "0 0 10px 0 rgba(0, 0, 0, 0.3)",
       },
       fontFamily: {
-        sans: ["var(--font-montserrat)"],
+        sans: ["var(--font-montserrat)", "Roboto"],
       },
     },
   },
