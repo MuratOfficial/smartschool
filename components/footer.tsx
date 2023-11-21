@@ -4,7 +4,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="grid lg:grid-cols-3 sm:grid-cols-1 lg:bg-transparent lg:py-0 sm:py-4 sm:bg-blue-900 font-['Roboto'] sm:gap-4 lg:gap-20 sm:px-4 lg:px-48 z-10 lg:w-[1200px] sm:max-w-full lg:max-w-[1200px]  h-full ">
+    <div className="grid lg:grid-cols-3 sm:grid-cols-1 lg:bg-transparent lg:py-0 sm:py-4 sm:bg-blue-900 font-roboto sm:gap-4 lg:gap-20 sm:px-4 lg:px-48 z-10 lg:w-[1200px] sm:max-w-full lg:max-w-[1200px]  h-full ">
       <div className="flex flex-col items-center text-center">
         <Image
           width={150}
@@ -39,6 +39,18 @@ function Footer() {
               width={20}
               height={20}
               src="/footer/Instagram.png"
+              alt="logo"
+              className="hover:scale-110"
+            />
+          </Link>
+          <Link
+            href="https://api.whatsapp.com/send/?phone=77470947568&text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C+%D1%85%D0%BE%D1%87%D1%83+%D1%83%D0%B7%D0%BD%D0%B0%D1%82%D1%8C+%D0%BF%D1%80%D0%BE+%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83+%D0%BA+IELTS&type=phone_number&app_absent=0"
+            target="_blank"
+          >
+            <Image
+              width={20}
+              height={20}
+              src="/footer/whatsapp.png"
               alt="logo"
               className="hover:scale-110"
             />

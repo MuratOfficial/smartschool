@@ -1,10 +1,16 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Montserrat } from "next/font/google";
+import { Montserrat, Roboto } from "next/font/google";
 
 const montserrat = Montserrat({
   subsets: ["cyrillic"],
   variable: "--font-montserrat",
+});
+
+const roboto = Roboto({
+  subsets: ["cyrillic"],
+  weight: "400",
+  variable: "--font-roboto",
 });
 
 export const metadata: Metadata = {
@@ -21,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="ru">
       <body
-        className={` ${montserrat.variable} font-sans flex items-center flex-col `}
+        className={` ${montserrat.variable} ${roboto.variable} font-sans flex items-center flex-col `}
       >
         {children}
       </body>

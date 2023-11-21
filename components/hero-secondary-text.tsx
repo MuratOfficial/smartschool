@@ -10,7 +10,7 @@ function HeroSecondaryText() {
     <div className="flex flex-col lg:max-w-[1200px] items-center z-10 lg:w-[1200px] sm:w-[360px] sm:max-w-[480px] sm:px-0 lg:px-48 h-full pt-20">
       <div className="flex lg:flex-row sm:flex-col gap-x-12 lg:w-full sm:w-fit relative ">
         <Image
-          src="/2/Plane.png"
+          src="/2/plane.svg"
           width={300}
           height={300}
           alt="plane"
@@ -28,7 +28,7 @@ function HeroSecondaryText() {
           width={170}
           height={170}
           alt="plane"
-          className="absolute z-20 right-0 inset-y-56"
+          className="absolute z-20 lg:visible sm:collapse right-0 inset-y-56"
         />
         <Image
           src="/2/statueoflibmin.svg"

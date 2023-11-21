@@ -21,14 +21,14 @@ function Discount() {
         </p>
       </AnimateScrollDownHorizontal>
 
-      <p className="font-['Roboto'] sm:text-md lg:text-lg text-neutral-100 text-center">
+      <p className="font-roboto sm:text-md lg:text-lg text-neutral-100 text-center">
         <strong>IELTS Club</strong> - это закрытый клуб, дополнительные занятия
         для практики английского языка и навыков, необходимых при сдачи{" "}
         <strong>IELTS</strong> в неформальной обстановке
       </p>
 
       <AnimateScrollDownHorizontalLeft>
-        <div className="grid lg:grid-cols-4 sm:grid-cols-1 lg:gap-4 sm:gap-12 font-['Roboto'] w-full">
+        <div className="grid lg:grid-cols-4 sm:grid-cols-1 lg:gap-4 sm:gap-10 font-roboto w-full">
           <div className="flex flex-col gap-y-1 text-neutral-100 sm:items-center lg:items-start ">
             <Image
               width={60}

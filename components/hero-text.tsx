@@ -8,7 +8,7 @@ function HeroText() {
         Набери желаемый балл на <span className=" font-black">IELTS</span>
       </h1>
 
-      <p className="font-['Roboto'] pt-4 text-[#4e6f89]">
+      <p className="font-roboto pt-4 text-[#4e6f89]">
         Оставляй заявку и получи <strong>IELTS Workbook</strong> бесплатно
       </p>
 
@@ -16,7 +16,7 @@ function HeroText() {
         <input
           type="text"
           placeholder="+7 (777) 777 77 77"
-          className="text-sm h-12 text-center shadow-3xl rin border-transparent border-2 bg-transparent py-3 px-3 rounded-s-md font-['Roboto']"
+          className="text-sm h-12 text-center shadow-3xl rin border-transparent border-2 bg-transparent py-3 px-3 rounded-s-md font-roboto"
         />
         <button className="h-12 text-sm text-white hover:bg-red-700 font-semibold text-center rounded-e-md p-3 bg-[#e30613]">
           Консультация

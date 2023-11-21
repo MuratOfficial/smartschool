@@ -10,6 +10,7 @@ const config: Config = {
     screens: {
       sm: "360px",
       lg: "1200px",
+      xl: "1920px",
     },
     extend: {
       backgroundImage: {
@@ -23,6 +24,7 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["var(--font-montserrat)", "Roboto"],
+        roboto: ["var(--font-roboto)"],
       },
     },
   },

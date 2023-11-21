@@ -11,7 +11,7 @@ import {
 function AboutCourses() {
   return (
     <div className="flex flex-col lg:max-w-[1200px] sm:max-w-[360px] items-center z-10 lg:w-[1200px] h-full bg-transparent sm:px-0 lg:px-48">
-      <div className="mt-4 mb-4 w-full flex flex-row sm:px-4 lg:px-24 sm:gap-x-4 lg:gap-x-12 items-center font-['Roboto']">
+      <div className="mt-4 mb-4 w-full flex flex-row sm:px-4 lg:px-24 sm:gap-x-4 lg:gap-x-12 items-center font-roboto">
         <div className="w-fit h-fit flex flex-col gap-y-8 sm:py-0 lg:py-12">
           <Image
             width={280}
@@ -46,7 +46,7 @@ function AboutCourses() {
         <p className="text-center font-bold sm:text-3xl lg:text-[40px] text-neutral-100 leading-tight pt-3 pb-5">
           Почему выбирают <strong>Smart School?</strong>
         </p>
-        <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-5 font-['Roboto'] lg:px-0 sm:px-4 pt-2 lg:pb-4 sm:pb-8">
+        <div className="grid sm:grid-cols-1 lg:grid-cols-3 gap-5 font-roboto lg:px-0 sm:px-4 pt-2 lg:pb-4 sm:pb-8">
           <div className="flex flex-col gap-y-2 lg:items-start sm:items-center">
             <Image width={50} height={60} src="/4/1.svg" alt="1" className="" />
             <p className="text-neutral-100 text-xs font-bold">
@@ -163,8 +163,9 @@ function AboutCourses() {
             Длительность курса зависит от уровня студента.
           </p>
           <Link
-            href="https://api.whatsapp.com/send/?phone=77471027050&text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C+%D1%85%D0%BE%D1%87%D1%83+%D1%83%D0%B7%D0%BD%D0%B0%D1%82%D1%8C+%D0%BF%D1%80%D0%BE+%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83+%D0%BA+IELTS&type=phone_number&app_absent=0"
+            href="https://api.whatsapp.com/send/?phone=77470947568&text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C+%D1%85%D0%BE%D1%87%D1%83+%D1%83%D0%B7%D0%BD%D0%B0%D1%82%D1%8C+%D0%BF%D1%80%D0%BE+%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D1%83+%D0%BA+IELTS&type=phone_number&app_absent=0"
             className=" w-fit text-sm hover:shadow-2xl hover:ring-2 hover:text-red-600 hover:ring-red-600 hover:bg-transparent transition delay-150 duration-500 text-white font-semibold text-center rounded-md p-2 bg-[#e30613]"
+            target="_blank"
           >
             Пройти проверку
           </Link>
@@ -183,7 +184,7 @@ function AboutCourses() {
             </p>
           </AnimateScrollDownHorizontal>
 
-          <div className="w-full h-fit rounded-t-lg shadow-4xl lg:text-left sm:text-center flex sm:flex-col lg:flex-row gap-x-8 font-['Roboto']">
+          <div className="w-full h-fit rounded-t-lg shadow-4xl lg:text-left sm:text-center flex sm:flex-col lg:flex-row gap-x-8 font-roboto">
             <div className="p-4 text-blue-950">
               <p className="font-bold text-xl mb-3 text-blue-950">Курс</p>
               <p className="font-bold text-md text-blue-950">12 занятий/мес.</p>
@@ -204,7 +205,7 @@ function AboutCourses() {
               </ul>
             </div>
           </div>
-          <div className="w-full rounded-b-lg bg-[#e30613] py-4 flex sm:flex-col lg:flex-row sm:gap-y-4 lg:gap-x-6 font-['Roboto'] relative items-center">
+          <div className="w-full rounded-b-lg bg-[#e30613] py-4 flex sm:flex-col lg:flex-row sm:gap-y-4 lg:gap-x-6 font-roboto relative items-center">
             <Image
               width={25}
               height={25}

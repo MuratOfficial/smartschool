@@ -13,7 +13,7 @@ function ResultCard({ avatar, name, point, desc }: ResultProps) {
   return (
     <div
       className={cn(
-        "lg:w-[400px] lg:h-[500px] font-['Roboto'] transition-all  duration-700 delay-150 z-20 py-6 pl-4 pr-8 bg-cover rounded-xl flex flex-col gap-y-2"
+        "lg:w-[400px] lg:h-[500px] font-roboto transition-all  duration-700 delay-150 z-20 py-6 pl-4 pr-8 bg-cover rounded-xl flex flex-col gap-y-2"
       )}
       style={{ backgroundImage: `url(/6/newRes.png)` }}
     >
