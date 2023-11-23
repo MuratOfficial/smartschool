@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Montserrat, Roboto } from "next/font/google";
+import Script from "next/script";
 
 const montserrat = Montserrat({
   subsets: ["cyrillic"],

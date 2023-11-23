@@ -47,7 +47,7 @@ function Navbar() {
     },
   ];
   return (
-    <div className="flex flex-row lg:gap-x-20 sm:gap-x-4 sm:px-4  lg:px-48 sm:py-0 lg:py-4 sm:w-[360px] lg:w-[1200px]  items-center justify-start z-50">
+    <div className="flex flex-row lg:h-fit sm:h-16 lg:gap-x-20 sm:gap-x-4 sm:px-4  lg:px-48 sm:py-0 lg:py-4 sm:w-[360px] lg:w-[1200px]  items-center justify-start z-50">
       <Image
         width={150}
         height={50}

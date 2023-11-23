@@ -10,6 +10,8 @@ import HeroText from "@/components/hero-text";
 import Navbar from "@/components/navbar";
 import Results from "@/components/results";
 import Image from "next/image";
+import Script from "next/script";
+import AmoCRMWidget from "@/components/amo-crm-widget";
 
 export default function Home() {
   return (
@@ -174,7 +176,8 @@ export default function Home() {
       <Results />
       <Form />
       <Footer />
-      {/* <WhatsAppWidget /> */}
+
+      {/* <AmoCRMWidget /> */}
     </main>
   );
 }
