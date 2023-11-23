@@ -10,18 +10,10 @@ import HeroText from "@/components/hero-text";
 import Navbar from "@/components/navbar";
 import Results from "@/components/results";
 import Image from "next/image";
-import Script from "next/script";
 
 export default function Home() {
   return (
     <main className="flex  relative lg:max-w-[1920px] lg:max-h-[7070px]  flex-col items-center min-h-screen justify-between sm:px-0 xl:px-72 lg:px-48">
-      <Script
-        src="https://gso.amocrm.ru/js/button.js?1700545534"
-        strategy="lazyOnload"
-      />
-      <Script id="amo_social_button_script">
-        {`(function(a,m,o,c,r,m){a[m]={id:"397564",hash:"ad3825e7fab83c10af134df6bf5379d5c97a79e63703a97f8bc8b8764336483f",locale:"ru",inline:true,setMeta:function(p){this.params=(this.params||[]).concat([p])}};a[o]=a[o]||function(){(a[o].q=a[o].q||[]).push(arguments)};var d=a.document,s=d.createElement('script');s.async=true;s.id=m+'_script';s.src='https://gso.amocrm.ru/js/button.js?1700545534';d.head&&d.head.appendChild(s)}(window,0,'amoSocialButton',0,0,'amo_social_button'))`}
-      </Script>
       {/**Bg Images block */}
       <Image
         width={1920}
@@ -35,35 +27,35 @@ export default function Home() {
         height={1530}
         alt="rect2"
         src="/1/rectsm1.png"
-        className="absolute   lg:collapse sm:visible top-[240px] "
+        className="absolute w-full h-[1260px]  lg:collapse sm:visible top-[240px] "
       />
       <Image
         width={1920}
         height={1530}
         alt="rect2"
         src="/1/rectsm2.png"
-        className="absolute   lg:collapse sm:visible top-[1850px] z-0"
+        className="absolute  lg:collapse sm:visible top-[1750px] z-0"
       />
       <Image
         width={1920}
         height={1530}
         alt="rect2"
         src="/1/rectsm3.png"
-        className="absolute   lg:collapse sm:visible top-[2350px] z-0"
+        className="absolute h-[300px]  lg:collapse sm:visible top-[2300px] z-0"
       />
       <Image
         width={1920}
         height={1530}
         alt="rect2"
         src="/1/rectsm4.png"
-        className="absolute   lg:collapse sm:visible top-[5390px] z-0"
+        className="absolute  max-h-[1550px] lg:collapse sm:visible top-[5390px] z-0"
       />
       <Image
         width={1920}
         height={1530}
         alt="rect2"
         src="/1/rectsm5.png"
-        className="absolute   lg:collapse sm:visible top-[7990px] z-0"
+        className="absolute  lg:collapse sm:visible top-[7950px] z-0"
       />
       <Image
         src="/3/Group1671.png"
@@ -167,6 +159,7 @@ export default function Home() {
       {/**Bg Images block */}
 
       <Navbar />
+
       <div className="flex lg:flex-row sm:flex-col sm:px-0 lg:px-48 lg:w-[1200px]   lg:max-w-[1200px] justify-between sm:max-w-[480px] items-center h-full py-8">
         <HeroText />
         <HeroImage />
@@ -181,6 +174,7 @@ export default function Home() {
       <Results />
       <Form />
       <Footer />
+      {/* <WhatsAppWidget /> */}
     </main>
   );
 }
