@@ -7,6 +7,7 @@ function AmoCRMWidget() {
       {" "}
       <Script
         type="text/javascript"
+        id="amo_form"
         dangerouslySetInnerHTML={{
           __html: ` !(function (a, m, o, c, r, m) {
 (a[o + c] = a[o + c] || {
