@@ -15,7 +15,7 @@ import AmoCRMWidget from "@/components/amo-crm-widget";
 
 export default function Home() {
   return (
-    <main className="flex  relative lg:max-w-[1920px] lg:max-h-[7070px]  flex-col items-center min-h-screen justify-between sm:px-0 xl:px-72 lg:px-48">
+    <main className="flex  relative lg:max-w-[1920px]  flex-col items-center min-h-screen justify-between sm:px-0 xl:px-72 lg:px-48">
       {/**Bg Images block */}
       <Image
         width={1920}
